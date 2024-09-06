@@ -1,5 +1,13 @@
 <x-layout>
     <div class="space-y-10">
+        <section class="text-center ">
+            <h1 class="font-bold text-4xl pb-4">Let's Find Your Next Job</h1>
+            <form>
+                <input placeholder="Web developer..." type="text"
+                    class="rounded-xl bg-white/5 px-5 py-4 border border-white/20 w-full max-w-xl" />
+            </form>
+
+        </section>
 
         <section>
             <x-section-heading>Top Jobs</x-section-heading>
@@ -14,8 +22,6 @@
         <section>
             <x-section-heading>Tags</x-section-heading>
             <div class="mt-6 space-x-1">
-
-
                 <x-tag>Tag</x-tag>
                 <x-tag>Tag</x-tag>
                 <x-tag>Tag</x-tag>
@@ -25,11 +31,17 @@
                 <x-tag>Tag</x-tag>
                 <x-tag>Tag</x-tag>
             </div>
-
         </section>
 
         <section>
             <x-section-heading>Recent Jobs</x-section-heading>
+
+            <div class="mt-6 space-y-6">
+
+                <x-job-card-wide />
+                <x-job-card-wide />
+                <x-job-card-wide />
+            </div>
 
         </section>
 

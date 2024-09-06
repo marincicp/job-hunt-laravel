@@ -9,7 +9,7 @@
     @vite(['resources/js/app.js', 'resources/css/app.css'])
 </head>
 
-<body class="bg-black text-white">
+<body class="bg-black text-white ">
 
     <div class="px-10 py-4">
 
@@ -23,7 +23,7 @@
             </div>
 
             <div>
-                <ul class="flex gap-6 font-bold tracking-wide">
+                <ul class="flex gap-6 font-medium tracking-wide">
                     <li><a href="#">Jobs</a></li>
                     <li><a href="#">Careers</a></li>
                     <li><a href="#">Salaries</a></li>
@@ -38,7 +38,7 @@
 
     </div>
 
-    <main class="mt-10 max-w-[968px] mx-auto">
+    <main class="mt-10 max-w-[968px] mx-auto ">
 
         {{ $slot }}
     </main>
